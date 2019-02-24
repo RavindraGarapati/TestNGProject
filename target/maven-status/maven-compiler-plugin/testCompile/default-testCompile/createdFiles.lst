@@ -1,0 +1,5 @@
+com\sel\pageObjects\LoginPage.class
+com\sel\utilities\CommonUtilities.class
+com\sel\tests\LoginTest.class
+com\sel\pageObjects\AddStaffPage.class
+com\sel\utilities\BaseTest.class

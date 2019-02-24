@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21927" started-at="2019-02-23T08:49:13Z" finished-at="2019-02-23T08:49:34Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21927" started-at="2019-02-23T08:49:13Z" finished-at="2019-02-23T08:49:34Z">
+      <class name="com.sel.tests.LoginTest">
+        <test-method status="PASS" signature="Reportsetup()[pri:0, instance:com.sel.tests.LoginTest@3a03464]" name="Reportsetup" is-config="true" duration-ms="277" started-at="2019-02-23T08:49:13Z" finished-at="2019-02-23T08:49:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.sel.tests.LoginTest@3a03464]" name="launchApp" is-config="true" duration-ms="8343" started-at="2019-02-23T08:49:13Z" finished-at="2019-02-23T08:49:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="FAIL" signature="loginWithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.sel.tests.LoginTest@3a03464]" name="loginWithValidCredentials" duration-ms="9955" started-at="2019-02-23T08:49:21Z" finished-at="2019-02-23T08:49:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Admin@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ADD STAFFfsd] but found [ADD STAFF]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ADD STAFFfsd] but found [ADD STAFF]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.sel.tests.LoginTest.loginWithValidCredentials(LoginTest.java:43)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method status="PASS" signature="getReport(org.testng.ITestResult)[pri:0, instance:com.sel.tests.LoginTest@3a03464]" name="getReport" is-config="true" duration-ms="914" started-at="2019-02-23T08:49:31Z" finished-at="2019-02-23T08:49:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentials status=FAILURE method=LoginTest.loginWithValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.sel.tests.LoginTest@3a03464] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sel.tests.LoginTest@3a03464]" name="closeBrowser" is-config="true" duration-ms="1073" started-at="2019-02-23T08:49:32Z" finished-at="2019-02-23T08:49:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.sel.tests.LoginTest@3a03464]" name="endTest" is-config="true" duration-ms="1281" started-at="2019-02-23T08:49:33Z" finished-at="2019-02-23T08:49:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.sel.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
