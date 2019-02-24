@@ -40,7 +40,7 @@ public class LoginTest extends CommonUtilities {
 			elementOperations(loginPage.password_TextBox, "sendKeys", pwd);
 			elementOperations(loginPage.login_Button, "click", "");
 			
-			Assert.assertEquals(addStaffPage.addStaffForm_HeaderText.getText(), "ADD STAFFfsd");
+			Assert.assertEquals(addStaffPage.addStaffForm_HeaderText.getText(), "ADD STAFF");
 			
 		}
 		catch(Exception ex)
