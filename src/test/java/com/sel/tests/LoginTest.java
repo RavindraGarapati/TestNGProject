@@ -36,12 +36,14 @@ public class LoginTest extends CommonUtilities {
 			test=report.startTest("Login Test 1");
 			test.log(LogStatus.INFO, "Test Started"+test.getStartedTime());
 		
-			elementOperations(loginPage.userName_TextBox, "sendKeys", uName);
+			/*elementOperations(loginPage.userName_TextBox, "sendKeys", uName);
 			elementOperations(loginPage.password_TextBox, "sendKeys", pwd);
 			elementOperations(loginPage.login_Button, "click", "");
 			
-			Assert.assertEquals(addStaffPage.addStaffForm_HeaderText.getText(), "ADD STAFF");
+			Assert.assertEquals(addStaffPage.addStaffForm_HeaderText.getText(), "ADD STAFFxx");
+			*/
 			
+			Assert.assertTrue(false);
 		}
 		catch(Exception ex)
 		{
